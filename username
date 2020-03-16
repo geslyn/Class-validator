@@ -1,0 +1,6 @@
+class validator: 
+  def username_is_valid(self, username):
+      if len(username) > 8:
+            return False
+      if ' ' in username: 
+            return False
